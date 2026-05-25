@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Abhinav Singwal - Bug Hunter & API Pentester</title>
+    <!-- Bootstrap 5 CSS + Icons + Google Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Abhinav Singwal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="writeups.html">Writeups & Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Contact Info Column -->
+                <div class="col-lg-5">
+                    <div class="contact-info-card">
+                        <div class="contact-badge">
+                            <i class="bi bi-chat-dots"></i> Get in Touch
+                        </div>
+                        <h1 class="fw-bold mt-3">Let's Work Together</h1>
+                        <p class="text-secondary mb-4">
+                            Have a project in mind? Looking for a VAPT professional? 
+                            Or just want to discuss security? I'd love to hear from you.
+                        </p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </div>
+                                <div>
+                                    <h6>Email Me At</h6>
+                                    <p>abhinavsingwal@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-github"></i>
+                                </div>
+                                <div>
+                                    <h6>GitHub</h6>
+                                    <p>github.com/yogsec</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-linkedin"></i>
+                                </div>
+                                <div>
+                                    <h6>LinkedIn</h6>
+                                    <p>linkedin.com/in/abhinavsingwal</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-dev-to"></i>
+                                </div>
+                                <div>
+                                    <h6>dev.to</h6>
+                                    <p>dev.to/abhinavsingwal</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-availability mt-4">
+                            <i class="bi bi-check-circle-fill text-success"></i>
+                            <span>Available for freelance & remote opportunities</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form Column -->
+                <div class="col-lg-7">
+                    <div class="contact-form-card">
+                        <h3 class="fw-bold mb-4">Send me a message</h3>
+                        
+                        <!-- EmailJS Form - No page refresh -->
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" name="from_name" id="from_name" class="form-control" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Email Address</label>
+                                    <input type="email" name="from_email" id="from_email" class="form-control" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Subject</label>
+                                <input type="text" name="subject" id="subject" class="form-control" placeholder="VAPT Consultation / Bug Bounty / Collaboration">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="6" placeholder="Tell me about your project or requirement..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-lg w-100" id="submitBtn">
+                                <i class="bi bi-send-fill"></i> Send Message
+                            </button>
+                            
+                            <!-- Status Message -->
+                            <div id="formStatus" class="mt-3" style="display: none;"></div>
+                            
+                            <p class="text-muted small text-center mt-3">
+                                <i class="bi bi-shield-check"></i> Your information is safe and will not be shared
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Abhinav Singwal</h5>
+                    <p>Bug Hunter | API Pentester | VAPT Enthusiast</p>
+                    <p><i class="bi bi-geo-alt"></i> Meerut, Uttar Pradesh, India</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="writeups.html">Writeups</a></li>
+                        <li><a href="tools.html">Tools</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Connect</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/yogsec" target="_blank">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/abhinavsingwal" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://dev.to/abhinavsingwal" target="_blank">dev.to</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center pt-4 mt-3 border-top">
+                <small>2025 Abhinav Singwal | Built with Bootstrap & vanilla JS</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- EmailJS Configuration -->
+    <script>
+        // ============================================
+        // IMPORTANT: Replace these with your actual keys
+        // Get them from: https://dashboard.emailjs.com/
+        // ============================================
+        
+        // Step 1: Replace with your Public Key
+        const EMAILJS_PUBLIC_KEY = "bK1zMClo5_xI_KK90";
+        
+        // Step 2: Replace with your Service ID
+        const EMAILJS_SERVICE_ID = "service_tk8vrkn";
+        
+        // Step 3: Replace with your Template ID
+        const EMAILJS_TEMPLATE_ID = "template_85wo74d";
+        
+        // Initialize EmailJS
+        (function() {
+            emailjs.init({
+                publicKey: EMAILJS_PUBLIC_KEY,
+            });
+        })();
+        
+        // Form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const formStatus = document.getElementById('formStatus');
+            
+            // Get form values
+            const from_name = document.getElementById('from_name').value;
+            const from_email = document.getElementById('from_email').value;
+            const subject = document.getElementById('subject').value || 'New Contact from Portfolio';
+            const message = document.getElementById('message').value;
+            
+            // Prepare template parameters
+            const templateParams = {
+                from_name: from_name,
+                from_email: from_email,
+                subject: subject,
+                message: message,
+                to_name: 'Abhinav Singwal',
+                reply_to: from_email
+            };
+            
+            // Show loading state
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="bi bi-hourglass-split"></i> Sending...';
+            formStatus.style.display = 'block';
+            formStatus.className = 'alert alert-info';
+            formStatus.innerHTML = '<i class="bi bi-envelope-paper"></i> Sending your message...';
+            
+            // Send email using EmailJS
+            emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    
+                    // Success message
+                    formStatus.className = 'alert alert-success';
+                    formStatus.innerHTML = '<i class="bi bi-check-circle-fill"></i> Message sent successfully! I will get back to you soon.';
+                    
+                    // Reset form
+                    document.getElementById('contactForm').reset();
+                    
+                    // Reset button
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = '<i class="bi bi-send-fill"></i> Send Message';
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(function() {
+                        formStatus.style.display = 'none';
+                    }, 5000);
+                })
+                .catch(function(error) {
+                    console.log('FAILED...', error);
+                    
+                    // Error message
+                    formStatus.className = 'alert alert-danger';
+                    formStatus.innerHTML = '<i class="bi bi-exclamation-triangle-fill"></i> Failed to send message. Please try again or email me directly at abhinavsingwal@gmail.com';
+                    
+                    // Reset button
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = '<i class="bi bi-send-fill"></i> Send Message';
+                    
+                    // Hide error message after 5 seconds
+                    setTimeout(function() {
+                        formStatus.style.display = 'none';
+                    }, 5000);
+                });
+        });
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>

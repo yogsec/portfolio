@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Abhinav Singwal - Security Tools & VAPT</title>
+    <!-- Bootstrap 5 CSS + Icons + Google Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Abhinav Singwal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="writeups.html">Writeups & Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="fw-bold">Security Projects & Tools</h1>
+                <p class="lead">Open-source tools for penetration testing, bug bounty, and API security</p>
+                <div class="github-stats mt-3">
+                    <span class="badge bg-dark me-2"><i class="bi bi-github"></i> 19 Repositories</span>
+                    <span class="badge bg-dark me-2"><i class="bi bi-star-fill text-warning"></i> 2.2k+ Stars</span>
+                    <span class="badge bg-dark"><i class="bi bi-code-slash"></i> MIT License</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-buttons text-center">
+                <button class="btn filter-btn active" data-filter="all">All Projects</button>
+                <button class="btn filter-btn" data-filter="vapt">VAPT & Scanning</button>
+                <button class="btn filter-btn" data-filter="api">API Security</button>
+                <button class="btn filter-btn" data-filter="osint">OSINT & Recon</button>
+                <button class="btn filter-btn" data-filter="exploit">Exploit & Payloads</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid-section">
+        <div class="container">
+            <div class="row g-4" id="projectsContainer">
+                <!-- Projects will be loaded dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Callout -->
+    <section class="github-callout">
+        <div class="container text-center">
+            <i class="bi bi-github fs-1"></i>
+            <h3 class="mt-3">View All on GitHub</h3>
+            <p>Follow my work, contribute, or report issues</p>
+            <a href="https://github.com/yogsec" target="_blank" class="btn btn-primary btn-lg">
+                <i class="bi bi-github"></i> github.com/yogsec
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Abhinav Singwal</h5>
+                    <p>Bug Hunter | API Pentester | VAPT Enthusiast</p>
+                    <p><i class="bi bi-geo-alt"></i> Meerut, Uttar Pradesh, India</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="writeups.html">Writeups</a></li>
+                        <li><a href="tools.html">Tools</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Connect</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/yogsec" target="_blank">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/abhinavsingwal" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:abhinavsingwal@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center pt-4 mt-3 border-top">
+                <small>2025 Abhinav Singwal | Built with Bootstrap & vanilla JS</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="projects-data.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>

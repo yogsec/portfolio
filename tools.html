@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Tools | Abhinav Singwal - VAPT Tools Collection</title>
+    <!-- Bootstrap 5 CSS + Icons + Google Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Abhinav Singwal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="writeups.html">Writeups & Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tools.html">Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="tools-header">
+        <div class="container">
+            <div class="text-center">
+                <div class="tools-badge">
+                    <i class="bi bi-tools"></i> Professional Security Tools
+                </div>
+                <h1 class="fw-bold mt-3">Penetration Testing Toolkit</h1>
+                <p class="lead">Hand-crafted tools for bug bounty hunters and security researchers</p>
+                <div class="tools-stats mt-4">
+                    <span class="stat-badge"><i class="bi bi-github"></i> 5 Active Tools</span>
+                    <span class="stat-badge"><i class="bi bi-download"></i> Free & Open Source</span>
+                    <span class="stat-badge"><i class="bi bi-shield-check"></i> MIT License</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Grid -->
+    <section class="tools-grid-section">
+        <div class="container">
+            <div class="row g-4">
+                
+                <!-- Tool 1: Alive -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="bi bi-activity"></i>
+                        </div>
+                        <div class="tool-header">
+                            <h3 class="tool-name">Alive</h3>
+                            <div class="tool-badge-group">
+                                <span class="tool-lang-badge">Python</span>
+                                <span class="tool-type-badge">Scanner</span>
+                            </div>
+                        </div>
+                        <p class="tool-description">
+                            Fast concurrent URL checker that identifies live domains returning HTTP 200 OK status. 
+                            Supports WAF bypass using random user agents and bulk URL lists.
+                        </p>
+                        <div class="tool-features">
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Concurrent scanning</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> WAF bypass</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Bulk URL support</span>
+                        </div>
+                        <div class="tool-links">
+                            <a href="https://github.com/yogsec/Alive" target="_blank" class="tool-github-link">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                            <button class="tool-copy-btn" data-cmd="git clone https://github.com/yogsec/Alive.git">
+                                <i class="bi bi-clipboard"></i> Clone
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 2: wordpress-fix -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="bi bi-wordpress"></i>
+                        </div>
+                        <div class="tool-header">
+                            <h3 class="tool-name">WordPress-Fix</h3>
+                            <div class="tool-badge-group">
+                                <span class="tool-lang-badge">Shell</span>
+                                <span class="tool-type-badge">Security Scanner</span>
+                            </div>
+                        </div>
+                        <p class="tool-description">
+                            WordPress security scanner that detects vulnerabilities, misconfigurations, 
+                            outdated plugins, and potential entry points in WordPress websites.
+                        </p>
+                        <div class="tool-features">
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Plugin vulnerability scan</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Version detection</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Misconfiguration check</span>
+                        </div>
+                        <div class="tool-links">
+                            <a href="https://github.com/yogsec/wordpress-fix" target="_blank" class="tool-github-link">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                            <button class="tool-copy-btn" data-cmd="git clone https://github.com/yogsec/wordpress-fix.git">
+                                <i class="bi bi-clipboard"></i> Clone
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 3: BugBoard -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="bi bi-speedometer2"></i>
+                        </div>
+                        <div class="tool-header">
+                            <h3 class="tool-name">BugBoard</h3>
+                            <div class="tool-badge-group">
+                                <span class="tool-lang-badge">HTML/CSS/JS</span>
+                                <span class="tool-type-badge">Dashboard</span>
+                            </div>
+                        </div>
+                        <p class="tool-description">
+                            Comprehensive vulnerability assessment dashboard for SQLi, XSS, CSRF tracking. 
+                            Live monitoring and reporting for bug bounty hunters.
+                        </p>
+                        <div class="tool-features">
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Live dashboard</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Vulnerability tracking</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Report generation</span>
+                        </div>
+                        <div class="tool-links">
+                            <a href="https://github.com/yogsec/BugBoard" target="_blank" class="tool-github-link">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                            <a href="https://yogsec.github.io/BugBoard" target="_blank" class="tool-demo-link">
+                                <i class="bi bi-box-arrow-up-right"></i> Live Demo
+                            </a>
+                            <button class="tool-copy-btn" data-cmd="git clone https://github.com/yogsec/BugBoard.git">
+                                <i class="bi bi-clipboard"></i> Clone
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 4: DorkTerm -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="bi bi-terminal"></i>
+                        </div>
+                        <div class="tool-header">
+                            <h3 class="tool-name">DorkTerm</h3>
+                            <div class="tool-badge-group">
+                                <span class="tool-lang-badge">HTML/JS</span>
+                                <span class="tool-type-badge">OSINT Tool</span>
+                            </div>
+                        </div>
+                        <p class="tool-description">
+                            Terminal-themed web-based security tool for performing Google Dork queries efficiently. 
+                            Generate multiple search queries for penetration testing.
+                        </p>
+                        <div class="tool-features">
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Google Dork generation</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Terminal interface</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> 100+ dork queries</span>
+                        </div>
+                        <div class="tool-links">
+                            <a href="https://github.com/yogsec/DorkTerm" target="_blank" class="tool-github-link">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                            <a href="https://yogsec.github.io/DorkTerm/" target="_blank" class="tool-demo-link">
+                                <i class="bi bi-box-arrow-up-right"></i> Live Demo
+                            </a>
+                            <button class="tool-copy-btn" data-cmd="git clone https://github.com/yogsec/DorkTerm.git">
+                                <i class="bi bi-clipboard"></i> Clone
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 5: CORS -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="bi bi-shield-shaded"></i>
+                        </div>
+                        <div class="tool-header">
+                            <h3 class="tool-name">CORS Misconfiguration Detector</h3>
+                            <div class="tool-badge-group">
+                                <span class="tool-lang-badge">Shell</span>
+                                <span class="tool-type-badge">API Security</span>
+                            </div>
+                        </div>
+                        <p class="tool-description">
+                            Simple and fast tool to detect CORS misconfigurations in web applications. 
+                            Identify potential data leakage and security risks.
+                        </p>
+                        <div class="tool-features">
+                            <span><i class="bi bi-check-circle-fill text-success"></i> CORS header analysis</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Origin validation</span>
+                            <span><i class="bi bi-check-circle-fill text-success"></i> Fast scanning</span>
+                        </div>
+                        <div class="tool-links">
+                            <a href="https://github.com/yogsec/cors" target="_blank" class="tool-github-link">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                            <button class="tool-copy-btn" data-cmd="git clone https://github.com/yogsec/cors.git">
+                                <i class="bi bi-clipboard"></i> Clone
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section class="howto-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Quick Start Guide</h2>
+                <p class="text-secondary">Get started with these tools in minutes</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="howto-card">
+                        <div class="step-number">01</div>
+                        <i class="bi bi-git"></i>
+                        <h5>Clone Repository</h5>
+                        <p>Use the clone button on any tool card to copy the git command</p>
+                        <code class="howto-code">git clone [repo-url]</code>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="howto-card">
+                        <div class="step-number">02</div>
+                        <i class="bi bi-gear"></i>
+                        <h5>Install Dependencies</h5>
+                        <p>Follow the README instructions for each tool</p>
+                        <code class="howto-code">pip install -r requirements.txt</code>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="howto-card">
+                        <div class="step-number">03</div>
+                        <i class="bi bi-play-btn"></i>
+                        <h5>Run the Tool</h5>
+                        <p>Execute and start finding vulnerabilities</p>
+                        <code class="howto-code">python tool.py [options]</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Abhinav Singwal</h5>
+                    <p>Bug Hunter | API Pentester | VAPT Enthusiast</p>
+                    <p><i class="bi bi-geo-alt"></i> Meerut, Uttar Pradesh, India</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="writeups.html">Writeups</a></li>
+                        <li><a href="tools.html">Tools</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Connect</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/yogsec" target="_blank">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/abhinavsingwal" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://dev.to/abhinavsingwal" target="_blank">dev.to</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center pt-4 mt-3 border-top">
+                <small>2025 Abhinav Singwal | Built with Bootstrap & vanilla JS</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+    <!-- Tools specific JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Copy to clipboard functionality for clone buttons
+            const copyBtns = document.querySelectorAll('.tool-copy-btn');
+            
+            copyBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const cmdToCopy = this.getAttribute('data-cmd');
+                    
+                    // Create temporary textarea
+                    const textarea = document.createElement('textarea');
+                    textarea.value = cmdToCopy;
+                    document.body.appendChild(textarea);
+                    textarea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textarea);
+                    
+                    // Show feedback
+                    const originalText = this.innerHTML;
+                    this.innerHTML = '<i class="bi bi-check-lg"></i> Copied!';
+                    this.style.backgroundColor = '#10b981';
+                    this.style.color = 'white';
+                    
+                    setTimeout(() => {
+                        this.innerHTML = originalText;
+                        this.style.backgroundColor = '';
+                        this.style.color = '';
+                    }, 2000);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

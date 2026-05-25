@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writeups & Blogs | Abhinav Singwal - Security Research</title>
+    <!-- Bootstrap 5 CSS + Icons + Google Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Meta refresh for automatic redirect (optional, 3 seconds delay) -->
+    <meta http-equiv="refresh" content="3;url=https://dev.to/abhinavsingwal">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Abhinav Singwal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="writeups.html">Writeups & Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Redirect Section -->
+    <section class="redirect-section">
+        <div class="container">
+            <div class="redirect-card text-center">
+                <div class="redirect-icon">
+                    <i class="bi bi-journal-bookmark-fill"></i>
+                </div>
+                <h1 class="fw-bold mt-4">Writeups & Security Blogs</h1>
+                <p class="lead mb-4">My security research, bug bounty writeups, and API pentesting guides</p>
+                
+                <div class="redirect-message">
+                    <div class="spinner-border text-primary mb-3" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <h4>Redirecting you to dev.to</h4>
+                    <p class="text-muted">You will be redirected to my dev.to profile in a moment...</p>
+                </div>
+
+                <div class="redirect-buttons mt-4">
+                    <a href="https://dev.to/abhinavsingwal" class="btn btn-primary btn-lg" id="directLink">
+                        <i class="bi bi-box-arrow-up-right"></i> Go to dev.to Now
+                    </a>
+                    <a href="index.html" class="btn btn-outline-secondary btn-lg ms-2">
+                        <i class="bi bi-house"></i> Back to Home
+                    </a>
+                </div>
+
+                <div class="redirect-note mt-5">
+                    <p class="text-muted small">
+                        <i class="bi bi-envelope-paper"></i> 
+                        My dev.to handle: <strong>@abhinavsingwal</strong>
+                    </p>
+                    <p class="text-muted small">
+                        Topics I write about: XSS | IDOR | API Security | CORS | Bug Bounty Methodology | OWASP Top 10
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Writeups Preview (static links to dev.to articles) -->
+    <section class="featured-writeups">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Latest from dev.to</h2>
+                <p class="text-secondary">Click any card to read full article on dev.to</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="writeup-card" onclick="window.open('https://dev.to/abhinavsingwal', '_blank')">
+                        <i class="bi bi-bug-fill"></i>
+                        <h5>Exploiting IDOR in Modern APIs</h5>
+                        <p>Step-by-step guide to finding and exploiting Insecure Direct Object References</p>
+                        <span class="read-link">Read on dev.to <i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="writeup-card" onclick="window.open('https://dev.to/abhinavsingwal', '_blank')">
+                        <i class="bi bi-shield-shaded"></i>
+                        <h5>CORS Misconfiguration Deep Dive</h5>
+                        <p>Understanding and detecting CORS misconfigurations in web applications</p>
+                        <span class="read-link">Read on dev.to <i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="writeup-card" onclick="window.open('https://dev.to/abhinavsingwal', '_blank')">
+                        <i class="bi bi-code-square"></i>
+                        <h5>XSS to Account Takeover</h5>
+                        <p>Real-world bug bounty walkthrough from XSS to full account compromise</p>
+                        <span class="read-link">Read on dev.to <i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Abhinav Singwal</h5>
+                    <p>Bug Hunter | API Pentester | VAPT Enthusiast</p>
+                    <p><i class="bi bi-geo-alt"></i> Meerut, Uttar Pradesh, India</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="writeups.html">Writeups</a></li>
+                        <li><a href="tools.html">Tools</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Connect</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/yogsec" target="_blank">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/abhinavsingwal" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://dev.to/abhinavsingwal" target="_blank">dev.to</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center pt-4 mt-3 border-top">
+                <small>2025 Abhinav Singwal | Built with Bootstrap & vanilla JS</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for redirect countdown (optional) -->
+    <script>
+        // JavaScript redirect as backup (2 seconds)
+        setTimeout(function() {
+            window.location.href = 'https://dev.to/abhinavsingwal';
+        }, 3000);
+
+        // Log for console
+        console.log('Redirecting to dev.to profile...');
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
