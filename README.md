@@ -3,8 +3,8 @@
 Bug Hunter | API Pentester | VAPT Enthusiast
 
 [![GitHub](https://img.shields.io/badge/GitHub-yogsec-181717?style=flat-square&logo=github)](https://github.com/yogsec)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhinav%20Singwal-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/yogsec)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail)](mailto:your-email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhinav%20Singwal-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/abhinavsingwal)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail)](mailto:abhinavsingwal@gmail.com)
 
 ---
 
