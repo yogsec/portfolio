@@ -14,17 +14,6 @@ I am a Bug Hunter and API Pentester with hands-on experience in live bug bounty 
 
 My core focus areas include VAPT, API Security, and Bug Bounty hunting. I am skilled in OWASP Top 10 vulnerabilities, Burp Suite, and various API security testing methodologies.
 
----
-
-## Quick Navigation
-
-- [Home](#)
-- [Projects](#projects)
-- [Writeups & Blogs](#writeups--blogs)
-- [Tools](#tools)
-- [Contact](#connect)
-
----
 
 ## Technical Arsenal
 
@@ -39,7 +28,6 @@ HTTP/HTTPS, TCP/IP, DNS, Linux (Kali, Ubuntu), Windows environment.
 ### Programming
 Python, JavaScript, automation scripts, custom security tooling.
 
----
 
 ## Featured Security Projects
 
@@ -60,7 +48,6 @@ A tool to detect CORS misconfigurations in web applications and assess potential
 
 [View on GitHub](https://github.com/yogsec/cors-misconfig)
 
----
 
 ## Writeups & Security Research
 
@@ -70,7 +57,6 @@ I document real-world bug bounty findings, API hacking techniques, and PortSwigg
 - XSS to account takeover: A real bug bounty walkthrough
 - CORS misconfiguration deep dive: Tooling and detection
 
----
 
 ## Certifications
 
@@ -78,7 +64,6 @@ I document real-world bug bounty findings, API hacking techniques, and PortSwigg
 - PortSwigger Web Security Academy: 35+ labs solved
 - OWASP Top 10 Practitioner
 
----
 
 ## Bug Bounty Highlights
 
@@ -86,7 +71,6 @@ I document real-world bug bounty findings, API hacking techniques, and PortSwigg
 - Created clear and reproducible Proof of Concepts (PoCs) with requests and screenshots
 - Performed API pentesting focusing on BOLA and excessive data exposure
 
----
 
 ## Web & API Security Knowledge
 
@@ -98,7 +82,6 @@ I document real-world bug bounty findings, API hacking techniques, and PortSwigg
 - Ethical Hacking Essentials
 - OWASP Top 10
 
----
 
 ## Connect
 
@@ -107,5 +90,3 @@ I am based in Meerut, Uttar Pradesh, India.
 - GitHub: [github.com/yogsec](https://github.com/yogsec)
 - LinkedIn: [linkedin.com/in/yogsec](https://linkedin.com/in/yogsec)
 - Email: [abhinavsingwal@gmail.com](mailto:abhinavsingwal@gmail.com)
-
-
