@@ -9,5 +9,5 @@ My core focus areas include VAPT and Bug Bounty hunting. I am skilled in OWASP T
 I am based in Meerut, Uttar Pradesh, India.
 
 - GitHub: [github.com/yogsec](https://github.com/yogsec)
-- LinkedIn: [linkedin.com/in/yogsec](https://linkedin.com/in/yogsec)
+- LinkedIn: [linkedin.com/in/abhinav-singwal](https://linkedin.com/in/abhinav-singwal)
 - Email: [abhinavsingwal@gmail.com](mailto:abhinavsingwal@gmail.com)
