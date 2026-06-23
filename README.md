@@ -1,16 +1,6 @@
-# Abhinav Singwal - Portfolio
-
-Bug Hunter | API Pentester | VAPT Enthusiast
-
-[![GitHub](https://img.shields.io/badge/GitHub-yogsec-181717?style=flat-square&logo=github)](https://github.com/yogsec)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhinav%20Singwal-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/abhinavsingwal)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail)](mailto:abhinavsingwal@gmail.com)
-
----
-
 ## About Me
 
-I am a Bug Hunter and API Pentester with hands-on experience in live bug bounty programs. I specialize in web application security, API security, and vulnerability assessment. I am actively looking for a remote junior VAPT role to identify and report web vulnerabilities professionally.
+I am a Bug Hunter with hands-on experience in live bug bounty programs. I specialize in web application security, API security, and vulnerability assessment. I am actively Finding Vulnerabilities in Shopping Websites.
 
 My core focus areas include VAPT, API Security, and Bug Bounty hunting. I am skilled in OWASP Top 10 vulnerabilities, Burp Suite, and various API security testing methodologies.
 
@@ -49,7 +39,7 @@ A tool to detect CORS misconfigurations in web applications and assess potential
 [View on GitHub](https://github.com/yogsec/cors-misconfig)
 
 
-## Writeups & Security Research
+## Writeups
 
 I document real-world bug bounty findings, API hacking techniques, and PortSwigger lab solutions. You can read my latest research on dev.to and my personal blog.
 
@@ -77,8 +67,7 @@ I document real-world bug bounty findings, API hacking techniques, and PortSwigg
 - XSS (Cross-Site Scripting)
 - IDOR (Insecure Direct Object References)
 - BOLA (Broken Object Level Authorization)
-- Logic flaws
-- PortSwigger Labs: 35+ completed
+- PortSwigger Labs
 - Ethical Hacking Essentials
 - OWASP Top 10
 
