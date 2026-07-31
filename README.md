@@ -17,13 +17,13 @@ I help website owners improve their security by performing manual vulnerability 
 
 ## Pricing
 
-**Website Vulnerability Assessment — Starting at $20 per website**
+**Website Vulnerability Assessment - Starting at $20 per website**
 
 Each assessment includes:
 
 * Detailed vulnerability report
 * Risk severity assessment
-* Proof of Concept (PoC)
+* Proof of Concept
 * Remediation recommendations
 * Security best practices
 
