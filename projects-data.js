@@ -2,12 +2,12 @@
 
 const projectsData = [
     {
-        name: "wordpress-fix",
-        description: "Detects vulnerabilities in WordPress websites. Scans for misconfigurations, outdated plugins, and security issues.",
+        name: "Vulnerable Shopping Cart",
+        description: "Vulnerable Shopping Cart is a deliberately insecure e-commerce application",
         category: "vapt",
-        tech: "Shell",
-        stars: 1,
-        url: "https://github.com/yogsec/wordpress-fix",
+        tech: "HTML, Javascript",
+        stars: 5,
+        url: "https://yogsec.github.io/Vulnerable-Shopping-Cart/",
         liveDemo: null,
         featured: true
     },
@@ -62,11 +62,11 @@ const projectsData = [
         featured: true
     },
     {
-        name: "yogsec",
-        description: "Personal profile repository - I find vulnerabilities in web applications before attackers do. Web apps, APIs, and mobile app testing.",
-        category: "osint",
-        tech: "HTML",
-        stars: 3,
+        name: "Vulnerable Login",
+        description: "A deliberately vulnerable login form designed for security education and training.",
+        category: "VAPT",
+        tech: "HTML, Javascript",
+        stars: 13,
         url: "https://github.com/yogsec/yogsec",
         liveDemo: "https://yogsec.github.io/yogsec/",
         featured: false
